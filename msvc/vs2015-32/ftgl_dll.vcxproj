@@ -98,7 +98,7 @@
       <AdditionalIncludeDirectories>..\..\..\freetype\include;../../src;../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_USRDLL;FTGL_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>./Release/ftgl_dll.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>./Release/</AssemblerListingLocation>
@@ -144,7 +144,7 @@
       <AdditionalIncludeDirectories>..\..\..\freetype\include;../../src;../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_USRDLL;FTGL_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>./Release/ftgl_dll.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>./Release/</AssemblerListingLocation>
